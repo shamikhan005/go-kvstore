@@ -1,6 +1,6 @@
 # go-kvstore
 
-This project is a **distributed key-value store** that supports basic CRUD operations (`GET`, `PUT`, `DELETE`), **node clustering**, **consistent hashing**, **data replication**, **persistence**, and **log compaction**. It allows multiple nodes to participate in the storage and retrieval of key-value pairs, ensuring scalability, fault tolerance, and high availability.
+a **distributed key-value store** that supports basic CRUD operations (`GET`, `PUT`, `DELETE`), **node clustering**, **consistent hashing**, **data replication**, **persistence**, and **log compaction**. It allows multiple nodes to participate in the storage and retrieval of key-value pairs, ensuring scalability, fault tolerance, and high availability.
 
 The project is implemented in **Go** and supports horizontal scaling by distributing the keys across different nodes based on consistent hashing. Each node is capable of joining or leaving the cluster dynamically, with data replicated to ensure redundancy.
 

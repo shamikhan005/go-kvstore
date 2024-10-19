@@ -102,8 +102,6 @@ The project is implemented in **Go** and supports horizontal scaling by distribu
    - `sync.RWMutex` ensures that the store can handle concurrent `GET`, `PUT`, and `DELETE` requests.
    - Periodic persistence of the key-value store to disk and log compaction is performed in background goroutines.
 
----
-
 ## Benchmark Testing
 
 To ensure the system performs efficiently under various conditions, **benchmark tests** were conducted. These tests measured the performance of key operations such as `GET`, `PUT`, `DELETE`, and **log compaction**. Below is a summary of the tests performed:

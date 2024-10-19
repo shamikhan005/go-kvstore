@@ -80,7 +80,8 @@ The project is implemented in **Go** and supports horizontal scaling by distribu
       ```bash
       curl -X DELETE http://localhost:8080/kvstore?key=mykey
       ```
-      You can also test these requests using **Postman**.
+ 
+   You can also test these requests using **Postman**.
 
 
 ## Architecture Overview

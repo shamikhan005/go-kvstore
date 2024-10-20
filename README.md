@@ -104,7 +104,7 @@ The project is implemented in **Go** and supports horizontal scaling by distribu
 
 ## Benchmark Testing
 
-To ensure the system performs efficiently under various conditions, **benchmark tests** were conducted. These tests measured the performance of key operations such as `GET`, `PUT`, `DELETE`, and **log compaction**. Below is a summary of the tests performed:
+To ensure the system performs efficiently under various conditions, **benchmark tests** were conducted. These tests measured the performance of key operations such as `GET`, `PUT`, `DELETE`, and **log compaction**. Below is a results of the tests performed:
 
 ![Screenshot 2024-10-19 014908](https://github.com/user-attachments/assets/51b504e3-f594-4524-823a-98eb830bc8d3)
 

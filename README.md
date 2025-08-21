@@ -4,8 +4,6 @@ a **distributed key-value store** that supports basic CRUD operations (`GET`, `P
 
 The project is implemented in **Go** and supports horizontal scaling by distributing the keys across different nodes based on consistent hashing. Each node is capable of joining or leaving the cluster dynamically, with data replicated to ensure redundancy.
 
-*i have worked on this project in phases. still working on this project*
-
 ## Features
 
 ### 1. **CRUD Operations**:
